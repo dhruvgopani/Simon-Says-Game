@@ -67,7 +67,7 @@ function checkAns(idx) {
         updateHighScore(level);
         h2.innerHTML = `<b>Game Over !</b>   Your Score: <b>${level}</br></b>Press<i> Any Key</i> OR <i>Simon Says </i>To<b> ReStart</b>`;
         h2.style.backgroundColor = "rgb(255, 0, 0)";
-        h2.style.height = "55px";
+        //h2.style.height = "55px";
         h2.style.color = "white";
         h2.style.width = "430px";
         
